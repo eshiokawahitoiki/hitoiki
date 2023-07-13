@@ -1,0 +1,151 @@
+
+
+@media (min-width: 992px) and (max-width: 2560px){
+    .col-md-offset-right-2{
+        margin-right: 16.66666667%;
+    }
+    .col-xs-offset-right-2{
+        margin-right: 16.66666667%;
+    }
+} 
+@media (min-width: 0px) and (max-width: 991px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 10px 0;
+    }
+    .background-one-container, .background-two-container{
+        padding: unset;
+        padding-top: 100px;
+    }
+    #user-public-profile .description ul .name{
+        margin-top: unset;
+    }
+    #list-images, .listing-card .listing-thumb, #list-images img{
+        width: 130px;
+        height: 130px;
+    }
+}
+@media (min-width: 0px) and (max-width: 767px){
+    .btn-joinus{
+        padding-left: 0;
+    }
+    #background .col-sm-6{
+        margin-bottom: 0px;
+    }
+    #background .falgun-relation{
+        margin-bottom: 10px;
+    }
+    #background .position-type{
+        margin-bottom: 35px;
+    }
+    .listing-basicinfo p{
+        margin: 10px 0;
+    }
+    .listing-card.premium{
+        margin: 0;
+    }
+    #content{
+        margin-top: 20px;
+    }
+    body.search .col-lg-3{
+        padding: 10px 15px;
+    }
+    #list-images, .listing-card .listing-thumb, #list-images img{
+        width: 150px;
+        height: 150px;
+    }
+    #search-col .heading{
+        margin-bottom: 20px;
+    }
+    #search-col .heading, .see_by{
+        font-size: 11px;
+    }
+    #footer-row h1{
+        margin-bottom: 18px;
+    }
+    .socialmedia-footer h1{
+        margin-left: 0;
+    }
+    #footer-row #footer-contact-heading{
+        margin-top: unset;
+    }
+    .socialmedia-footer .socialmedia a i{
+        margin: 0 5px 5px 0;
+        padding-left: unset;
+    }
+    #user-public-profile .btn{
+        float: none;
+    }
+    #sidebars-sidebar .modal-header{
+        display: block;
+    }
+    #sidebars-sidebar .modal-header .close{
+        margin: 0;
+        padding: 0;
+    }
+    #list-images, 
+    .listing-card .listing-thumb, 
+    #list-images img{
+        margin: unset;
+    }
+}
+@media (min-width: 0px) and (max-width: 740px){ 
+    .listing-basicinfo .falgun-type, .listing-basicinfo .falgun-relation{
+        float: none;
+    }  
+    .listing-basicinfo .falgun-type{
+        margin-left: unset;
+    } 
+    .listing-basicinfo .falgun-relation{
+        margin-bottom: 5px;
+    }
+    .see_by{
+        margin-top: unset;
+    }
+    .listing-views .listing-views-col{
+        margin-bottom: 10px;
+        padding-left: 15px;
+    }
+    .item-photos .thumbs img{
+        margin-top: 0px;
+    }
+    #user-public-sidebar .modal-dialog .close{
+        padding: unset;
+    }
+    #footer{
+        text-align: left;
+        padding: 0;
+    }
+}
+@media (min-width: 0px) and (max-width: 576px){
+    .navbar-default ul .language{
+        float: none;
+    }
+    .navbar-default ul .language .btn-lg{
+        padding-left: 0;
+    }
+    .navbar-default .first.logged{
+        display: block;
+    }
+    .navbar-default .logged .name{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .navbar-default .logged .btn-logout{
+        margin-left: 0;
+    }
+}
+@media (min-width: 0px) and (max-width: 425px){
+    #search-col .heading{
+        border: none;
+        margin-bottom: 40px;
+    }
+    .see_by, .see_by ul{
+        width: 100%;
+    }
+    .see_by label{
+        float: left;
+    }
+    #form-row-h1, #page-heading-h1{
+        font-size: 16px;
+    }
+} 

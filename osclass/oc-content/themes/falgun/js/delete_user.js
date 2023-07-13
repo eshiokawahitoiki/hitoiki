@@ -1,0 +1,2 @@
+
+$(document).ready(function(){$(".opt_delete_account a").click(function(){$("#dialog-delete-account").dialog("open")}),$("#dialog-delete-account").dialog({autoOpen:!1,modal:!0,buttons:[{text:falgun.langs["delete"],click:function(){window.location=falgun.base_url+"?page=user&action=delete&id="+falgun.user.id+"&secret="+falgun.user.secret}},{text:falgun.langs.cancel,click:function(){$(this).dialog("close")}}]})});
